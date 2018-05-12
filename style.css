@@ -11,3 +11,55 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  storefront-child
 */ 
+
+/*header styles start*/
+
+body {
+	background-color: pink;
+}
+
+@media (min-width: 768px) {
+	.site-header .site-branding  {
+		display: inline-block;
+	}
+	
+	.woocommerce-active .site-header .site-branding {
+		width: 183px;
+		margin-right: 192px;
+	}
+	.woocommerce-active .site-header .site-search {
+		float:left;
+		display: inline-block;
+		width: 384px;
+		
+	}
+	
+	#woocommerce-product-search-field-0 {
+		border: 3px solid rgb(230, 230, 230);
+		border-radius: 10px;
+		background-color: #fff;
+		
+	}
+	
+
+	.widget_search form:before,
+	.widget_product_search form:before {
+		display: none;
+	}
+	
+	#lupka {
+		    float: right;
+    		position: relative;
+    		bottom: 41px;
+			margin-right: 20px;
+	}
+	
+/*
+	.woocommerce-product-search-field-0 button[type=submit] {
+		    width: 34px;
+			height: 34px;
+			margin-top: 10px;
+			margin-left: 329px;
+	}
+*/
+}
