@@ -12,11 +12,9 @@
  Text Domain:  storefront-child
 */ 
 
-/*header styles start*/
 
-body {
-	background-color: pink;
-}
+
+/*header styles start*/
 
 @media (min-width: 768px) {
 	.site-header .site-branding  {
